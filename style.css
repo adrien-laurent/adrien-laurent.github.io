@@ -1,0 +1,299 @@
+/*police*/
+@font-face {
+	font-family: 'Acherus Grotesque Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Acherus Grotesque Regular'), url('acherus_grotesque_-_regular.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Acherus Grotesque Regular Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Acherus Grotesque Regular Italic'), url('acherus_grotesque_-_regular_italic.woff') format('woff');
+}
+
+*
+{
+	font-family: 'Acherus Grotesque Regular';
+}
+
+em
+{
+	font-family: 'Acherus Grotesque Regular Italic';
+}
+
+body
+{
+	background: url("images/black_purple1.jpg") fixed no-repeat center black;
+	background-size: cover;
+	display: flex;
+}
+
+strong
+{
+	font-weight: bold;
+}
+
+p, ul
+{
+	font-size: 0.8em;
+}
+
+
+.global
+{
+	/*border: green solid;*/
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	margin: auto;
+	flex-direction: row;
+}
+
+nav
+{
+	background: #654e6b;/*435270*/
+	width: 280px;
+	border-top: groove 10px #4f3f54;
+    border-bottom: ridge 10px #4f3f54;
+    border-left: groove 10px #4f3f54;
+    border-right: ridge 10px #4f3f54;
+    padding: 10px;
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.name
+{
+	color: ;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.age
+{
+	color: ;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1em;
+}
+
+
+.text
+{
+	background: #e8e8e8;
+    border-top: groove 10px #e8e8e8;
+    border-bottom: ridge 10px #e8e8e8;
+    border-left: groove 10px #e8e8e8;
+    border-right: ridge 10px #e8e8e8;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: 750px;
+}
+
+.programmation
+{
+	margin-left: 100px;
+}
+
+
+h1
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+	color: black;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+h4
+{
+	font-weight: bold;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.separation
+{
+	background: #9A9A9A;
+	margin: auto;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: auto;
+	height: 3px;
+	border-radius: 360px;
+}
+
+.section
+{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.interet
+{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 0px;
+}
+
+.interet1
+{
+	margin-bottom: -20px;
+	width: 350px;
+}
+
+h2
+{
+
+}
+
+h3
+{
+	font-size: 0.94em;
+	margin-left: 16px;
+	font-weight: normal;
+}
+
+.tiret
+{
+	margin-left: 20px;
+
+}
+
+.tiret-li
+{
+	list-style-type: '- ';
+}
+
+.profil
+{
+	width: 175px;
+}
+
+.imgperso
+{
+	font-size: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	/*border: solid black;*/
+}
+
+.infoperso
+{
+	display: flex;
+	flex-direction: column;
+	width: 275px;
+	justify-content: center;
+	/*border: solid black;*/
+}
+
+.info
+{
+	display: flex;
+}
+
+aside
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.tel, .mail, .maison
+{
+	width: 20px;
+	margin: auto;
+	margin-right: 20px;
+}
+
+.mailto
+{
+	color: grey;
+}
+
+nav, nav h3
+{
+	color: #e8e8e8;
+}
+
+nav h3
+{
+	text-align: ;
+	font-size: 1.2em;
+	white-space: nowrap;
+}
+
+nav h4
+{
+	font-size: 0.9em;
+	margin-left: 40px;
+}
+
+nav section
+{
+	display: flex;
+}
+
+/*
+.interet2
+{
+	display: none;
+}
+*/
+
+@media all and (max-width: 1090px)
+{
+	.global
+	{
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.text
+	{
+		width: auto;
+	}
+
+	.section h2
+	{
+		margin-left: 20px
+	}
+
+	nav
+	{
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		width: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.imgperso
+	{
+		margin: auto;
+		margin-left: 40px;
+		margin-right: 40px;
+		
+	}
+
+	/*
+	.interet2
+	{
+		display: block;
+	}
+	*/
+}
+
+
+/*@media all and (max-width: 800px)*/
