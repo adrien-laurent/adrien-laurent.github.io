@@ -36,6 +36,13 @@ strong
 	font-weight: bold;
 }
 
+great
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: 'Acherus Grotesque Regular Italic';
+}
+
 p, ul
 {
 	font-size: 0.8em;
@@ -119,6 +126,11 @@ h4
 	font-weight: bold;
 	margin-left: 20px;
 	margin-bottom: 10px;
+}
+
+.size12
+{
+	font-size: 0.7em;
 }
 
 .separation
@@ -216,10 +228,12 @@ aside
 	margin-right: 20px;
 }
 
+
 .mailto
 {
-	color: grey;
+	color: #0099FF;
 }
+
 
 nav, nav h3
 {
