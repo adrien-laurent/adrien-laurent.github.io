@@ -26,8 +26,9 @@ em
 
 body
 {
-	background: url("images/black_purple1.jpg") fixed no-repeat center black;
-	background-size: cover;
+	background-color: #222222;
+	/*background: url("images/black_purple1.jpg") fixed no-repeat center black;
+	background-size: cover;*/
 	display: flex;
 }
 
@@ -45,7 +46,7 @@ great
 
 p, ul
 {
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 
@@ -56,27 +57,90 @@ p, ul
 	justify-content: center;
 	flex-wrap: nowrap;
 	margin: auto;
-	flex-direction: row;
+	flex-direction: column;
+	width: 1000px;
 }
 
 nav
 {
-	background: #654e6b;/*435270*/
-	width: 280px;
-	border-top: groove 10px #4f3f54;
+	/*background: #435270;/*654e6b*/
+	background: linear-gradient(#2e3e5e, #3a6fa1);
+
+	/*border-top: groove 10px #4f3f54;
     border-bottom: ridge 10px #4f3f54;
     border-left: groove 10px #4f3f54;
-    border-right: ridge 10px #4f3f54;
-    padding: 10px;
+    border-right: ridge 10px #4f3f54;*/
+	
 
 	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.flex-column
+{
+	display: flex;
 	flex-direction: column;
+}
+
+.flex-row
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.motivation
+{
+	display: flex;
+	width: auto;
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin: 0px;
+	background: #3a6fa1;/*435270*/
+
+	color: white;
+
+	/*border-top: groove 10px #0080ff;
+    border-bottom: ridge 10px #0080ff;
+    border-left: groove 10px #0080ff;
+    border-right: ridge 10px #0080ff;*/
+
+}
+.zone-centrale
+{
+	display: flex;
+	flex-direction: row;
+	background: #e8e8e8;
+    /*border-top: groove 10px #e8e8e8;
+    border-bottom: ridge 10px #e8e8e8;
+    border-left: groove 10px #e8e8e8;
+    border-right: ridge 10px #e8e8e8;*/
+
+    padding-left: 10px;
+    padding-right: 10px;
+
 
 }
 
+.gauche
+{
+	display: flex;
+	width: 1000px;
+}
+
+.droite
+{
+	display: flex;
+}
+.milieux
+{
+	display: flex;
+}
+
+
 .name
 {
-	color: ;
 	font-weight: bold;
 	text-align: center;
 	font-size: 1.3em;
@@ -84,25 +148,9 @@ nav
 
 .age
 {
-	color: ;
 	font-weight: bold;
 	text-align: center;
 	font-size: 1em;
-}
-
-
-.text
-{
-	background: #e8e8e8;
-    border-top: groove 10px #e8e8e8;
-    border-bottom: ridge 10px #e8e8e8;
-    border-left: groove 10px #e8e8e8;
-    border-right: ridge 10px #e8e8e8;
-
-    padding-left: 10px;
-    padding-right: 10px;
-
-    width: 750px;
 }
 
 .programmation
@@ -111,21 +159,20 @@ nav
 }
 
 
-h1
+.titre
 {
 	margin-top: 40px;
 	margin-bottom: 40px;
 	
-	color: black;
 	text-align: center;
 	font-size: 1.8em;
 }
 
-h4
+.permis
 {
 	font-weight: bold;
-	margin-left: 20px;
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 30px;
 }
 
 .size12
@@ -137,10 +184,22 @@ h4
 {
 	background: #9A9A9A;
 	margin: auto;
-	margin-right: 20px;
-	margin-left: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
 	width: auto;
-	height: 3px;
+	height: 0.15em;
+	border-radius: 360px;
+}
+
+.separation2
+{
+	display: flex;
+	justify-content: center;
+	background: #9A9A9A;
+
+	margin: 20px;
+	width: 0.15em;
+	height: auto;
 	border-radius: 360px;
 }
 
@@ -170,9 +229,9 @@ h2
 
 h3
 {
-	font-size: 0.94em;
-	margin-left: 16px;
+	font-size: 1.04em;
 	font-weight: normal;
+	margin: 0px;
 }
 
 .tiret
@@ -194,30 +253,40 @@ h3
 .imgperso
 {
 	font-size: 1em;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
+	margin: 40px;
+	margin-bottom: 10px;
 	/*border: solid black;*/
 }
 
-.infoperso
+.infoperso1
 {
 	display: flex;
 	flex-direction: column;
-	width: 275px;
-	justify-content: center;
+	width: 320px;
+	justify-content: top;
+	/*border: solid black;*/
+}
+.infoperso2
+{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	justify-content: top;
 	/*border: solid black;*/
 }
 
 .info
 {
 	display: flex;
+	justify-content: flex-start;
 }
 
 aside
 {
 	display: flex;
 	flex-direction: row;
+	margin-top: -10px;
+	margin-bottom: -10px;
 }
 
 
@@ -225,7 +294,8 @@ aside
 {
 	width: 20px;
 	margin: auto;
-	margin-right: 20px;
+	margin-right: 10px;
+	
 }
 
 
@@ -240,6 +310,7 @@ nav, nav h3
 	color: #e8e8e8;
 }
 
+/*
 nav h3
 {
 	text-align: ;
@@ -252,62 +323,3 @@ nav h4
 	font-size: 0.9em;
 	margin-left: 40px;
 }
-
-nav section
-{
-	display: flex;
-}
-
-/*
-.interet2
-{
-	display: none;
-}
-*/
-
-@media all and (max-width: 1090px)
-{
-	.global
-	{
-		flex-wrap: wrap;
-		flex-direction: column;
-	}
-
-	.text
-	{
-		width: auto;
-	}
-
-	.section h2
-	{
-		margin-left: 20px
-	}
-
-	nav
-	{
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: flex-start;
-		width: auto;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-
-	.imgperso
-	{
-		margin: auto;
-		margin-left: 40px;
-		margin-right: 40px;
-		
-	}
-
-	/*
-	.interet2
-	{
-		display: block;
-	}
-	*/
-}
-
-
-/*@media all and (max-width: 800px)*/
