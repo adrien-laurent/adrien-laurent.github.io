@@ -58,7 +58,7 @@ p, ul
 	flex-wrap: nowrap;
 	margin: auto;
 	flex-direction: column;
-	width: 1000px;
+	width: 1100px;
 }
 
 nav
@@ -81,6 +81,7 @@ nav
 {
 	display: flex;
 	flex-direction: column;
+	margin-left: 5%;
 }
 
 .flex-row
@@ -117,8 +118,8 @@ nav
     border-left: groove 10px #e8e8e8;
     border-right: ridge 10px #e8e8e8;*/
 
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 
 }
@@ -126,7 +127,7 @@ nav
 .gauche
 {
 	display: flex;
-	width: 1000px;
+	flex-direction: column;
 }
 
 .droite
@@ -152,12 +153,6 @@ nav
 	text-align: center;
 	font-size: 1em;
 }
-
-.programmation
-{
-	margin-left: 100px;
-}
-
 
 .titre
 {
@@ -214,17 +209,12 @@ nav
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 0px;
+	width: 450px;
 }
 
 .interet1
 {
 	margin-bottom: -20px;
-	width: 360px;
-}
-
-h2
-{
-
 }
 
 h3
@@ -237,12 +227,16 @@ h3
 .tiret
 {
 	margin-left: 20px;
-
 }
 
 .tiret-li
 {
 	list-style-type: '- ';
+}
+
+li
+{
+	margin-left: -15px;
 }
 
 .profil
@@ -307,19 +301,5 @@ aside
 
 nav, nav h3
 {
-	color: #e8e8e8;
-}
-
-/*
-nav h3
-{
-	text-align: ;
-	font-size: 1.2em;
-	white-space: nowrap;
-}
-
-nav h4
-{
-	font-size: 0.9em;
-	margin-left: 40px;
+	color: white;
 }
