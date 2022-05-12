@@ -112,7 +112,7 @@ nav
 {
 	display: flex;
 	flex-direction: row;
-	background: #e8e8e8;
+	background: white;
     /*border-top: groove 10px #e8e8e8;
     border-bottom: ridge 10px #e8e8e8;
     border-left: groove 10px #e8e8e8;
