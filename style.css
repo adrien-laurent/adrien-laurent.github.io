@@ -24,17 +24,22 @@ em
 	font-family: 'Acherus Grotesque Regular Italic';
 }
 
+.underline
+{
+	text-decoration: underline;
+}
+
+strong
+{
+	font-weight: bold;
+}
+
 body
 {
 	background-color: #222222;
 	/*background: url("images/black_purple1.jpg") fixed no-repeat center black;
 	background-size: cover;*/
 	display: flex;
-}
-
-strong
-{
-	font-weight: bold;
 }
 
 great
