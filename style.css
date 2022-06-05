@@ -212,15 +212,25 @@ nav
 .interet
 {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	padding-top: 0px;
 	width: 450px;
 }
 
-.interet1
+.skill-1
+{
+	margin-bottom: -20px;
+	display: flex;
+	align-items: center;
+}
+
+.skill-2
 {
 	margin-bottom: -20px;
 }
+
+
 
 h3
 {
