@@ -273,7 +273,7 @@ li
 	display: flex;
 	flex-direction: column;
 	width: 320px;
-	justify-content: top;
+	justify-content: center;
 	/*border: solid black;*/
 }
 .infoperso2
