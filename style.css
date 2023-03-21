@@ -106,6 +106,9 @@ nav
 	background: #3a6fa1;/*435270*/
 
 	color: white;
+	text-align: justify;
+    text-justify: inter-word;
+
 
 	/*border-top: groove 10px #0080ff;
     border-bottom: ridge 10px #0080ff;
