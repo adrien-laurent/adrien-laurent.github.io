@@ -134,8 +134,9 @@ nav
 
 .gauche
 {
-	display: flex;
-	flex-direction: column;
+	position: center;
+	/* display: flex; */
+	/* flex-direction: column; */
 }
 
 .droite
@@ -234,6 +235,11 @@ nav
 	margin-bottom: -20px;
 }
 
+.image
+{
+	width: 180px;
+	height: 180px;
+}
 
 
 h3
