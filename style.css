@@ -14,9 +14,26 @@
 	src: local('Acherus Grotesque Regular Italic'), url('acherus_grotesque_-_regular_italic.woff') format('woff');
 }
 
+
+@font-face {
+	font-family: 'Aptos';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Aptos'), url('aptos.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Aptos Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Aptos Italic'), url('aptos-italic.ttf') format('truetype');
+}
+
+
 *
 {
-	font-family: "Acherus Grotesque Regular Italic";
+	font-family: "Acherus Grotesque Regular";
 }
 
 em
